@@ -1,0 +1,16 @@
+/* Layout utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Responsive padding for mobile with bottom nav */
+@media (max-width: 768px) {
+  main {
+    padding-bottom: 80px;
+  }
+}
